@@ -21,7 +21,7 @@ n = int(input("Digite um número inteiro: "))
 
 while n > 0:
     if primo(n) == True:
-        print("é primo!")
+        print(n,"é primo!")
     else:
-        print("não é primo!")
+        print(n,"não é primo!")
     n = int(input("Digite um número inteiro: "))
