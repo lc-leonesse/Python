@@ -19,12 +19,13 @@ a[:-2]   # everything except the last two items
 
 lista = []
 
-
 numero = int(input("Digite um número: "))
-
 
 while numero != 0:
     lista.append(numero)
     numero = int(input("Digite um número: "))
     if numero == 0:
-        print(lista[::-1])  # lista do final para o início. Step = -1
+        comprimento = len(lista)
+        lista = lista[::-1]
+        for x in lista[0:comprimento:1]:
+            print(x)
