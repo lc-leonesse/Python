@@ -15,7 +15,7 @@ def remove_repetidos(lista):
         if contador > 1:
             indice = lista.index(x)
             del lista[indice]
-    lista = lista.sort()
+    lista.sort()
     return lista
 
 
