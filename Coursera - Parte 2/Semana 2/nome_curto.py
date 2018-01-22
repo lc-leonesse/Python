@@ -24,3 +24,5 @@ def mais_curto(lista_de_nomes):
 lista_de_nomes = ['          ana','jose','claudio','luiz','alfredo']
 
 mais_curto(lista_de_nomes)
+
+
