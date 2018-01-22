@@ -7,7 +7,7 @@ de pessoas como parâmetro e devolve o nome mais curto. A função deve
 
 """
 
-def mais_curto(lista_de_nomes):
+def menor_nome(lista_de_nomes):
     lista_tamanho = []
     for x in lista_de_nomes:
         a = x.strip()
@@ -21,8 +21,5 @@ def mais_curto(lista_de_nomes):
 
 
 
-lista_de_nomes = ['          ana','jose','claudio','luiz','alfredo']
-
-mais_curto(lista_de_nomes)
 
 
