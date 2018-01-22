@@ -23,7 +23,7 @@ def conta_letras(frase, contar='vogais'):
     if contar == 'vogais':
         for x in b:
             if x in vogais:
-                contador = contador +1
+                contador = contador + 1
             else:
                 contador = contador
     if contar == 'consoantes':
