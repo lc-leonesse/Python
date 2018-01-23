@@ -23,7 +23,9 @@ class Triangulo:
     def tipo_lado(self):
         if self.a == self.b and self.a == self.c and self.b == self.c:
             return 'equilátero'
-        if self.a == self.b and self.a == self.b and self.b != self.c:
+        if self.a == self.b and self.c == self.c and self.b != self.c:
+            return 'isósceles'
+        elif self.a != self.b and self.a == self.c and self.b != self.c:
             return 'isósceles'
         if self.a != self.b and self.a != self.c and self.b != self.c:
             return 'escaleno'
