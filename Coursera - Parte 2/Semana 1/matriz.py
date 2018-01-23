@@ -1,6 +1,6 @@
 """
 
-Matrizes
+Criar Matrizes
 
 """
 
@@ -13,7 +13,7 @@ def cria_matriz(num_linhas, num_colunas, valor):
         for j in range(num_colunas):
             linha.append(valor)
 
-        # adioiona linha à matriz
+        # adiciona linha à matriz
         matriz.append(linha)
 
     return matriz

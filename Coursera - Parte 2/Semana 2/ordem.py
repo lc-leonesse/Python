@@ -11,7 +11,7 @@ Dica: revise a segunda vídeo-aula desta semana.
 """
 
 def primeiro_lex(lista):
-    lista_nova = []
+    lista_nova = [] 
     for x in lista:
         b = x.strip()
         c = b.split(' ')
