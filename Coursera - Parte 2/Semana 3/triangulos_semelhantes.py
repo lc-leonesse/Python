@@ -12,10 +12,7 @@ diferente e ordená-las.
 
 """
 
-def main():
-    t1 = Triangulo(2,2,2)
-    t2 = Triangulo(4,4,4)
-    t1.semelhantes(t2)
+
 
 
 class Triangulo:
