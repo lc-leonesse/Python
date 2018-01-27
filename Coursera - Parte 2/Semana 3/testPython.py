@@ -1,6 +1,7 @@
 
 import pytest
 
+
 def soma(a, b, c):
     resultado = a + b + c
     return resultado

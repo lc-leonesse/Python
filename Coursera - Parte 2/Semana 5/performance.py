@@ -6,8 +6,8 @@ Sort
 """
 
 import random
-import time
 import ordenador
+
 
 class ContaTempos:
     def lista_aleatoria(self, n):

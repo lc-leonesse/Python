@@ -4,6 +4,7 @@ Exemplo de ordenação por seleção direta - Selection Sort
 
 """
 
+
 class Ordenador:
     def selecao_direta(self, lista):
 
