@@ -6,7 +6,8 @@ Sort
 """
 
 import random
-import ordenador
+import ordenadores
+import time
 
 
 class ContaTempos:
@@ -20,4 +21,15 @@ class ContaTempos:
         lista1 = self.lista_aleatoria(n)
         lista2 = lista1[:]
 
-        o =
+        o = ordenadores.Ordenador()
+
+        antes = time.time()
+        o.bolha(lista1)
+        depois = time.time()
+        print("Bolha demorou", depois - antes)
+
+        antes = time.time()
+        o.selecao_direta(lista2)
+        depois = time.time()
+        print("Seleção direta demorou", depois - antes)
+
