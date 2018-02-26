@@ -5,3 +5,6 @@ Estudos de Python
   
   - Data Science Academy
     - Exercícios do Curso de Python - Fundamentos para Análise de Dados
+  
+  - Exercícios
+    - Resolução de exercícios do site http://www.urionlinejudge.com.br/
